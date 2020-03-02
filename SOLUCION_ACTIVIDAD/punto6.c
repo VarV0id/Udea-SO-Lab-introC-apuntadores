@@ -30,7 +30,7 @@ int main(void) {
     shellsort(V,N);
     
     mediana = (N+1)/ 2 - 1;
-    printf("La mediana es: %d ",V[mediana]);
+    printf("La mediana es: %d \n",V[mediana]);
     return 0;
 }
 
