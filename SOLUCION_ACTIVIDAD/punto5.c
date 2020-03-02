@@ -20,12 +20,13 @@ void stringToMayuscula(char s[]);
 int main(void) {
     char s[100];
     printf("Entrada > ");
-    scanf("%[^\n]",s);
-    while(s!=EOF){
+    scanf("%100s",s);
+    
+    while(1){
         stringToMayuscula(s);
         printf("%s\n", s);
         printf("Entrada > ");
-        scanf("%[^\n]",s);
+        scanf("%100s",s);
     }
     
     return 0;
