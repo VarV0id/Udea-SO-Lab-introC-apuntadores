@@ -21,8 +21,8 @@ int main(void) {
     char s[100];
     printf("Entrada > ");
     scanf("%100s",s);
-    
-    while(1){
+    int ch = 0;
+    while((ch = getchar()) != EOF){
         stringToMayuscula(s);
         printf("%s\n", s);
         printf("Entrada > ");
