@@ -1,0 +1,13 @@
+1. ¿Que hace el programa anterior?
+
+El anterior programa lee hasta 1000 caracteres escritos por el usuario. Cuando recibe la señal EOF, detiene la lectura de
+caracteres e imprime todo lo anteriomente leido.
+
+2. Describa las funciones getchar y putchar
+
+getchar lee un unico caracter escrito por el usuario y lo devuelve para ser utilizado en el programa. putchar escribe en consola
+un unico caracter que le debe ser enviado como parametro.
+
+3. ¿Cuales son las condiciones necesarias para que el primer ciclo deje de ejecutarse?
+Para que el primer ciclo deje de ejecutarse el caracter leido del buffer debe ser un EOF o se debe superar la cantidad de 1000 
+caracteres leidos.
